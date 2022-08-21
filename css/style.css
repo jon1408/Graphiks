@@ -70,6 +70,11 @@ a{
     cursor: url(../img/cursor_alt1.cur), pointer;
 }
 
+.logo-footer{
+    font: 1.5rem 'Poppins', sans-serif;
+    font-weight: 600;
+}
+
 /*estilos do menu hamburger*/
 .hamburger {
     display: none;
