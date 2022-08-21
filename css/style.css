@@ -18,11 +18,12 @@ a{
     text-decoration: none;
 }
 
-/*
+
 .header{
-    border-bottom:1px solid var(--cor-secundaria);
+    /*border-bottom:1px solid var(--cor-secundaria);*/
+    z-index: 9999;
 }
-*/
+
 
 .navbar {
     background-color: var(--cor-primaria);
@@ -89,15 +90,17 @@ a{
     .nav-menu {
         position: fixed;
         left: -100%;
-        top: 10rem;
+        top: 6rem;
         flex-direction: column;
         background-color: #fff;
         width: 100%;
+        padding-bottom: 2rem;
         border-radius: 10px;
         text-align: center;
         transition: 0.3s;
         box-shadow:
             0 10px 27px rgba(0, 0, 0, 0.05);
+        z-index: 9999;
     }
 
     .nav-menu.active {
@@ -105,7 +108,7 @@ a{
     }
 
     .nav-item {
-        margin: 2.5rem 0;
+        margin: 1.5rem 0;
     }
 
     .hamburger {
