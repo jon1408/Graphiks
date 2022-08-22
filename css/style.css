@@ -70,6 +70,16 @@ a{
     cursor: url(../img/cursor_alt1.cur), pointer;
 }
 
+.sobre-nos{
+    background-color: var(--cor-terciaria);
+    color: var(--cor-secundaria);
+    font: 2rem 'Poppins', sans-serif;
+    font-weight: 600;
+    text-align: center;
+    text-transform: uppercase;
+    padding: .575rem 1rem;
+}
+
 .logo-footer{
     font: 1.5rem 'Poppins', sans-serif;
     font-weight: 600;
